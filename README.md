@@ -23,6 +23,7 @@ This feasibility analysis will be focused in the specific region of Southwest Br
 Each factor (elevation, proximity to river/stream, protected areas, proximity to road, and transmission lines) is converted to a score. A weighted sum is used to  provide final suggestions on ideal micro-hydro power project locations in Southwest BC.
 
 Criterion 1: Slope
+
 Rationale: Higher elevation provides higher potential (\(E_p = mgh\)
 
 |    Slope   | Score |
@@ -34,6 +35,7 @@ Rationale: Higher elevation provides higher potential (\(E_p = mgh\)
 | >25 deg.   |   5   |
 
 Criterion 2: Proximity to Streams/Rivers
+
 Rationale: Easier access to flowing water
 
 | Distance  | Score |
@@ -45,6 +47,7 @@ Rationale: Easier access to flowing water
 |   >2km    |   1   |
 
 Criterion 3: Proximity to Roads
+
 Rationale: More efficient with respect to access, cost, and safety
 
 | Distance | Score |
@@ -62,6 +65,7 @@ Criterion 4: Protected Areas
 
 
 Criterion 5: Proximity to Transmission Lines
+
 Rationale: Minimizes energy loss, and reduces construction costs/time
 
 | Distance | Score |
