@@ -37,7 +37,7 @@ Rationale: Higher elevation provides higher potential (\(E_p = mgh\)
 | >25 deg.   |   5   |
 
 ### Criterion 2: Proximity to Streams/Rivers
-Rationale: Easier access to flowing water
+Rationale: Easier access to flowing water, shorter penstock length to minimize friction losses
 
 | Distance  | Score |
 | --------- | ----- |
@@ -81,4 +81,21 @@ Suitability = ((40% Elevation Score) + (30% Stream Score) + (15% Road Score) + (
 
 
 ## ASSUMPTIONS
+1. Stream proximity data and use assumes nearby streams have usable flow
+2. Steeper slopes are assumed to improve hydropower potential by increasing hydraulic head
+3. Proximity to transmission infrastructure is assumed to ease grid connection feasibility
+4. Protected areas are assumed unsuitable for development
+
+## LIMITATIONS
+1. Ecological impacts are not considered in this study
+2. Raster resolution (25m DEM) ignores fine-scale site conditions
+3. Some data may be incomplete/out of date
+4. Regulatory constraints beyond protected areas are not considered
+5. Dry season data of streams are not considered
+6. Geological factors (ex. stability) not considered.
+
+## FUTURE WORKS
+Future work can include more data sets to address some of these limitations. Long-term data for water flow should be considered to understand seasonal variation.
+
+   
 _Note: GIS raw data not included in repo_
