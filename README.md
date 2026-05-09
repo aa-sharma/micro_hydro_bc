@@ -15,6 +15,6 @@ This feasibility analysis will be focused in the specific region of Southwest Br
 **DATASET & LAYERS**
 1. Elevation (DEM) - _Source: https://a100.gov.bc.ca/ext/mtec/public/products/mapsheet_
 2. Rivers and Streams - _Source: https://catalogue.data.gov.bc.ca/dataset/freshwater-atlas-stream-network_
-3. Protected Areas
+3. Protected Areas - _Source: https://catalogue.data.gov.bc.ca/dataset/ngo-conservation-areas-fee-simple_
 4. Roads
 5. Transmission Lines
