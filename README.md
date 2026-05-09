@@ -58,8 +58,8 @@ Rationale: More efficient with respect to access, cost, and safety
 
 
 ### Criterion 4: Protected Areas
-1. Inside protected area = x0
-2. Outside protected area = x1
+1. Inside protected area = 0
+2. Outside protected area = 1
 
 
 ### Criterion 5: Proximity to Transmission Lines
@@ -75,9 +75,7 @@ Rationale: Minimizes energy loss, and reduces construction costs/time
 
 
 ### Weighted Sum
-Suitability_i = (40% Elevation Score) + (30% Stream Score) + (15% Road Score) + (15% Transmission Line Score)
-
-Suitability_f = Suitability_i x (Protected Areas Constraint)
+Suitability_i = [(40% Elevation Score) + (30% Stream Score) + (15% Road Score) + (15% Transmission Line Score)] x (Protected Areas Constraint)
 
 
 ## ASSUMPTIONS
