@@ -5,13 +5,9 @@
 
 **OVERVIEW**
 
-Deliverables:
-	1 suitability map
-	1 ranked candidate sites layer
-	1 short report
+Deliverables: suitability map, ranked candidate sites layer, short report
 
-Software:
-	QGIS, Python, Git
+Software: QGIS, Python, Git
 
 Study Area Definition:
 This feasibility analysis will be focused in the specific region of Southwest British Columbia, Canada (Fraser Valley, Squamish-Lillooet, Sunshine Coast region) given the mountainous terrain, many streams, grid access, and manageable data sets.
