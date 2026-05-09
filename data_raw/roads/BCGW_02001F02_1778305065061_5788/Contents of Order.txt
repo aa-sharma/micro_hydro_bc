@@ -1,0 +1,14 @@
+﻿------------------
+Order Details
+-----------------
+Order ID: 2561127
+Date: 20260508
+
+----------------------
+Feature Types
+-----------------------
+ - Digital Road Atlas (DRA) - Demographic Partially-Attributed Road in directory RA_DPAR
+
+----------------------------
+Packaged Products
+----------------------------

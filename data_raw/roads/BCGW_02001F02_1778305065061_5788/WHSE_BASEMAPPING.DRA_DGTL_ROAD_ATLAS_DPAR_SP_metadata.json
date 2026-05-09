@@ -1,0 +1,158 @@
+[
+	{
+		"title" : "Digital Road Atlas (DRA) - Demographic Partially-Attributed Roads",
+		"name" : "digital-road-atlas-dra-demographic-partially-attributed-roads",
+		"bcdc_data_resource_url" : "https://catalogue.data.gov.bc.ca/dataset/c4935326-27cc-4324-8a2b-61685d3e9ac4",
+		"description" : "Digital Road Atlas Demographic Partially-Attributed Roads (DGTL ROAD ATLAS DPAR SP) provides partial information about roads in British Columbia. This data set represents the public data that is available for the Digital Road Atlas.  For more information on the DRA program please visit the [DRA info page](http://www2.gov.bc.ca/gov/content?id=21FFEC94B0AD40818D2D2AF06D522714)\n\nThis dataset is updated on the 6th of every month to the warehouse",
+		"purpose" : "",
+		"bcdc_type" : "Geographic",
+		"last_modified" : "2026-04-11T09:35:52",
+		"resource_storage_location" : "Bc Geographic Warehouse",
+		"object_name" : "WHSE_BASEMAPPING.DRA_DGTL_ROAD_ATLAS_DPAR_SP",
+		"object_short_name" : "RA_DPAR",
+		"projection_name" : "epsg3005",
+		"license_title" : "Access Only",
+		"license_url" : "https://www2.gov.bc.ca/gov/content?id=1AAACC9C65754E4D89A118B875E0FBDA",
+		"details" : [
+			{
+				"column_comments" : "DIGITAL ROAD ATLAS LINE ID is a unique numeric road segment identifier e.g. 453567.",
+				"column_name" : "DIGITAL_ROAD_ATLAS_LINE_ID",
+				"data_precision" : 10,
+				"data_type" : "NUMBER",
+				"short_name" : "DGTLRDTLSL"
+			},
+			{
+				"column_comments" : "FEATURE TYPE is the feature type classification of the road, e.g. bridge, dam, ferry route, etc.",
+				"column_name" : "FEATURE_TYPE",
+				"data_precision" : 12,
+				"data_type" : "VARCHAR2",
+				"short_name" : "FTRTP"
+			},
+			{
+				"column_comments" : "HIGHWAY EXIT NUMBER is a numeric or alpha-numeric identifier assigned to a road segment that allows egress from a segment designated as a highway, e.g. 5a.",
+				"column_name" : "HIGHWAY_EXIT_NUMBER",
+				"data_precision" : 6,
+				"data_type" : "VARCHAR2",
+				"short_name" : "HGHWXTNMBR"
+			},
+			{
+				"column_comments" : "HIGHWAY ROUTE NUMBER is the designated Highways and Arterials numbers, delimited by a plus sign, e.g. 1+5+97.",
+				"column_name" : "HIGHWAY_ROUTE_NUMBER",
+				"data_precision" : 12,
+				"data_type" : "VARCHAR2",
+				"short_name" : "HGHWRTNMBR"
+			},
+			{
+				"column_comments" : "SEGMENT LENGTH 2D is the 2D road segment length in meters, e.g. 234.456.",
+				"column_name" : "SEGMENT_LENGTH_2D",
+				"data_precision" : 10,
+				"data_type" : "NUMBER",
+				"short_name" : "SGMNTLNGTH"
+			},
+			{
+				"column_comments" : "SEGMENT LENGTH 3D is the 3D road segment length in meters, e.g. 123.456.",
+				"column_name" : "SEGMENT_LENGTH_3D",
+				"data_precision" : 10,
+				"data_type" : "NUMBER",
+				"short_name" : "SGMNTLNGT1"
+			},
+			{
+				"column_comments" : "ROAD NAME ALIAS1 is the first full alias name, e.g. Trans-Canada Hwy E.",
+				"column_name" : "ROAD_NAME_ALIAS1",
+				"data_precision" : 70,
+				"data_type" : "VARCHAR2",
+				"short_name" : "RDNMLS1"
+			},
+			{
+				"column_comments" : "ROAD NAME ALIAS2 is the second full alias name, e.g. Hwy 1.",
+				"column_name" : "ROAD_NAME_ALIAS2",
+				"data_precision" : 70,
+				"data_type" : "VARCHAR2",
+				"short_name" : "RDNMLS2"
+			},
+			{
+				"column_comments" : "ROAD NAME ALIAS3 is the third full alias name, e.g Hwy 5.",
+				"column_name" : "ROAD_NAME_ALIAS3",
+				"data_precision" : 70,
+				"data_type" : "VARCHAR2",
+				"short_name" : "RDNMLS3"
+			},
+			{
+				"column_comments" : "ROAD NAME ALIAS4 is the fourth full alias name, e.g. Hwy 97.",
+				"column_name" : "ROAD_NAME_ALIAS4",
+				"data_precision" : 70,
+				"data_type" : "VARCHAR2",
+				"short_name" : "RDNMLS4"
+			},
+			{
+				"column_comments" : "ROAD NAME FULL is the complete name for the road made up of the concatenation of the individual road name components, e.g. Elk Valley Hwy.",
+				"column_name" : "ROAD_NAME_FULL",
+				"data_precision" : 70,
+				"data_type" : "VARCHAR2",
+				"short_name" : "RDNMFLL"
+			},
+			{
+				"column_comments" : "ROAD SURFACE is the road surface type, e.g boat, decommissioned, loose, overgrown, paved, rough, unknown.",
+				"column_name" : "ROAD_SURFACE",
+				"data_precision" : 15,
+				"data_type" : "VARCHAR2",
+				"short_name" : "RDSRFC"
+			},
+			{
+				"column_comments" : "ROAD CLASS is the navigational road classification, e.g alleyway, arterial, collector, etc.",
+				"column_name" : "ROAD_CLASS",
+				"data_precision" : 12,
+				"data_type" : "VARCHAR2",
+				"short_name" : "ROAD_CLASS"
+			},
+			{
+				"column_comments" : "NUMBER OF LANES is the total number of lanes of through traffic on both sides of the segment, e.g. 2.",
+				"column_name" : "NUMBER_OF_LANES",
+				"data_precision" : 2,
+				"data_type" : "NUMBER",
+				"short_name" : "NMBRFLNS"
+			},
+			{
+				"column_comments" : "DATA CAPTURE DATE is the Date of data capture in the format YYYYMMDD e.g. 20110623.",
+				"column_name" : "DATA_CAPTURE_DATE",
+				"data_precision" : 7,
+				"data_type" : "DATE",
+				"short_name" : "DTCPTRDT"
+			},
+			{
+				"column_comments" : "FEATURE CODE contains a value based on the Canadian Council of Surveys and Mapping''s (CCSM) system for classification of geographic features.",
+				"column_name" : "FEATURE_CODE",
+				"data_precision" : 10,
+				"data_type" : "VARCHAR2",
+				"short_name" : "FTRCD"
+			},
+			{
+				"column_comments" : "GEOMETRY is the column used to reference the spatial coordinates defining the feature. ",
+				"column_name" : "GEOMETRY",
+				"data_precision" : 1,
+				"data_type" : "SDO_GEOMETRY",
+				"short_name" : "GEOMETRY"
+			},
+			{
+				"column_comments" : "OBJECTID is a required attribute of feature classes and object classes in a geodatabase. ",
+				"column_name" : "OBJECTID",
+				"data_precision" : "38",
+				"data_type" : "NUMBER",
+				"short_name" : "OBJECTID"
+			},
+			{
+				"column_comments" : "SE_ANNO_CAD_DATA is a binary column used by spatial tools to store annotation, curve features and CAD data when using the SDO_GEOMETRY storage data type. ",
+				"column_name" : "SE_ANNO_CAD_DATA",
+				"data_precision" : 4000,
+				"data_type" : "BLOB"
+			},
+			{
+				"column_comments" : "FEATURE_LENGTH_M is the system calculated length or perimeter of a geometry in meters",
+				"column_name" : "FEATURE_LENGTH_M",
+				"data_precision" : 19,
+				"data_type" : "NUMBER",
+				"short_name" : "FEAT_LEN"
+			}
+		]
+	}
+]
