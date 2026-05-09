@@ -18,3 +18,6 @@ This feasibility analysis will be focused in the specific region of Southwest Br
 3. Protected Areas - _Source: https://catalogue.data.gov.bc.ca/dataset/bc-parks-ecological-reserves-and-protected-areas_
 4. Roads - _Source: https://catalogue.data.gov.bc.ca/dataset/digital-road-atlas-dra-demographic-partially-attributed-roads_
 5. Transmission Lines - _Source: https://catalogue.data.gov.bc.ca/dataset/bc-transmission-lines_
+
+
+_Note: GIS raw data not included in repo_
