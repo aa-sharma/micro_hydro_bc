@@ -17,4 +17,4 @@ This feasibility analysis will be focused in the specific region of Southwest Br
 2. Rivers and Streams - _Source: https://catalogue.data.gov.bc.ca/dataset/freshwater-atlas-stream-network_
 3. Protected Areas - _Source: https://catalogue.data.gov.bc.ca/dataset/bc-parks-ecological-reserves-and-protected-areas_
 4. Roads - _Source: https://catalogue.data.gov.bc.ca/dataset/digital-road-atlas-dra-demographic-partially-attributed-roads_
-5. Transmission Lines
+5. Transmission Lines - _Source: https://catalogue.data.gov.bc.ca/dataset/bc-transmission-lines_
