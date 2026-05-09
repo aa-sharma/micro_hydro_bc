@@ -77,7 +77,7 @@ Rationale: Minimizes energy loss, and reduces construction costs/time
 
 
 ### Weighted Sum
-Suitability = ((40% Elevation Score) + (30% Stream Score) + (15% Road Score) + (15% Transmission Line Score)) x (Protected Areas Constraint)
+Suitability = ((40% Elevation Score) + (30% Stream Score) + (12% Road Score) + (18% Transmission Line Score)) x (Protected Areas Constraint)
 
 
 ## ASSUMPTIONS
