@@ -20,6 +20,7 @@ This feasibility analysis will be focused in the specific region of Southwest Br
 5. Transmission Lines - _Source: https://catalogue.data.gov.bc.ca/dataset/bc-transmission-lines_
 
 **SUITABILITY CRITERIA**
+
 Each factor (elevation, proximity to river/stream, protected areas, proximity to road, and transmission lines) is converted to a score. A weighted sum is used to  provide final suggestions on ideal micro-hydro power project locations in Southwest BC.
 
 Criterion 1: Slope
