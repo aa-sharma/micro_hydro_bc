@@ -1,0 +1,21 @@
+Notice
+
+Your use of any raster maps, associated files including descriptive information outlined in those associated files (collectively, the “Materials”) referred to in this website is subject to the provisions of a license agreement whose terms limit the liability of the Province of British Columbia with respect to the Materials.
+
+
+LICENSE AND WAIVER OF LIABILITY
+
+The Province of British Columbia (the “Province”) grants to you a personal, non-exclusive and non-transferable license, but with no right to grant sublicenses, to use the raster maps and the associated files including descriptive information outlined in those associated files (collectively, the “Materials”) subject to the limitations that the Materials must be used in accordance with this Agreement, and they cannot be redistributed or used directly or indirectly for commercial purposes.
+
+At no time shall the Materials be used to recreate digital data in the form of points, lines and polygons by having the geographic position and shape defined by a set of coordinates (vector data).
+
+The Province reserves the right to revise the master copy of the Materials and accompanying written materials and to make changes from time to time in content without any obligation to notify you of such revision or changes.
+
+The Province makes no representations or warranties of any kind with respect to the Materials or with respect to any content in relation to the Materials contained on any website maintained by the Province.  Without limiting the foregoing, the Province makes no warranty or representation with respect to the accuracy, merchantability, or fitness for a particular purpose of any of the Materials.
+
+You assume the entire risk as to the suitability of the Materials for your intended purpose.  In no event will the Province be liable in either tort or contract to you or any other party for damages, including any special incidental, consequential or indirect damages arising out of the use, performance or furnishing of the Materials, associated documentation or other services supplied by the Province, even if the Province has been advised of the possibility of such damages.
+
+Without limiting the generality of the foregoing, the Province will not be liable to you for any loss of use, revenue or profit even if the Province had been advised of the possibility of such potential loss or damage, or for any claim or action brought against the Province by any third party and for valuable consideration the receipt and sufficiency of which is hereby acknowledged.  You agree to indemnify and save harmless the Province from and against any liability arising out of any of the circumstances referred to in this paragraph.
+
+This agreement constitutes the complete agreement between the Province and you and supersedes all previous proposals, oral and written, representations, negotiations, commitments, and other communications between the parties.  This agreement may not be changed or modified except by an instrument in writing signed by the parties.  If any provision of this agreement is found to be illegal, invalid, or unenforceable it will be severable from this agreement, and the remaining provisions will not be affected thereby and will be valid, legal and enforceable.  This agreement will be governed by and construed in accordance with the laws of British Columbia.
+
