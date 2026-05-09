@@ -1,0 +1,156 @@
+﻿<!DOCTYPE html>
+<html>
+   <head>
+      <title>Metadata</title>
+      <meta charset="UTF-8">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" rel="stylesheet">
+   </head>
+   <body>
+      <div class="container">
+         <div class="row">
+            <div class="col-md-12" style="padding:10px;border: 1px solid black" >
+                     <img class="img-fluid d-block mx-auto" src="https://catalogue.data.gov.bc.ca/img/bc_mark.699f8f93.png" alt="B.C. Government Logo" style="height:65px;background-color:#003366">
+                     <H2 style="color:rgb(2,47,248)" class="text-center">BC Transmission Lines</H2>
+                     <table class="table table-condensed">
+                        <thead>
+                           <tr>
+                              <th>Title</th>
+                              <th>Purpose</th>
+                              <th>Description</th>
+                              <th>Last Modified Date</th>
+                              <th>BCDC URL</th>
+                              <th>BCDC Type</th>
+                           </tr>
+                        </thead>
+                        <tbody>
+                           <tr>
+                              <td>BC Transmission Lines</td>
+                              <td>To represent high voltage electrical transmission lines from various sources in one dataset for analytic, cartographic and emergency management purposes.</td>
+                              <td>High voltage electrical transmission lines for distributing power throughout the province. Lines were derived from several data sources representing unique inventories: BC Hydro, Private, Independent Power Producers, and Terrain Resource Information Management (TRIM).
+               Voltage information is not currently available on the public version of this dataset as per publication agreement with BC Hydro.</td>
+                              <td>2026-05-06T05:56:01</td>
+                              <td><a href="https://catalogue.data.gov.bc.ca/dataset/384d551b-dee1-4df8-8148-b3fcf865096a">https://catalogue.data.gov.bc.ca/dataset/384d551b-dee1-4df8-8148-b3fcf865096a</a></td>
+                              <td>Geographic</td>
+                           </tr>
+                        </tbody>
+                     </table>
+                     <table class="table table-condensed">
+                        <thead>
+                           <tr>
+                              <th>Resource Location</th>
+                              <th>Object Name</th>
+                              <th>Short Name</th>
+                              <th>Object Comments</th>
+                              <th>Projection</th>
+                              <th>License Title</th>
+                              <th>License URL</th>
+                           </tr>
+                        </thead>
+                        <tbody>
+                           <tr>
+                              <td>Bc Geographic Warehouse</td>
+                              <td>WHSE_BASEMAPPING. GBA_TRANSMISSION_LINES_SP</td>
+                              <td>TRNSMT_LNS</td>
+                              <td>High voltage electrical transmission lines for distributing power throughout the province. Lines were derived from several data sources representing unique inventories: BC Hydro, Private, Independent Power Producers, and Terrain Resource Information Management (TRIM).</td>
+                              <td>epsg3005</td>
+                              <td>Open Government Licence - British Columbia</td>
+                              <td><a href="https://www2.gov.bc.ca/gov/content?id=A519A56BC2BF44E4A008B33FCF527F61">License Url</a></td>
+                           </tr>
+                        </tbody>
+                     </table>
+               <hr style="border-width:4px ">
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-md-12" style="padding:10px;border: 1px solid black" >
+                     <H5 style="color:rgb(2,47,248)" class="text-left">Column Details</H5>
+                     <table class="table table-striped">
+                        <thead>
+                           <tr>
+                              <th>Column Name</th>
+                              <th>Short Name</th>
+                              <th>Data Type</th>
+                              <th>Data Precision</th>
+                              <th>Column Comments</th>
+                           </tr>
+                        </thead>
+                        <tbody>
+                           <tr>
+                              <td>TRANSMISSION_LINE_ID</td>
+                              <td>TRNSMSS_ID</td>
+                              <td>NUMBER</td>
+                              <td>10</td>
+                              <td>TRANSMISSION_LINE_ID is a system-generated unique identification number.</td>
+                           </tr>
+                           <tr>
+                              <td>CIRCUIT_NAME</td>
+                              <td>CIRC_NAME</td>
+                              <td>VARCHAR2</td>
+                              <td>30</td>
+                              <td>CIRCUIT_NAME is an identifier of the transmission line, as derived from BC Hydro transmission lines, e.g., 1L246.</td>
+                           </tr>
+                           <tr>
+                              <td>CIRCUIT_DESCRIPTION</td>
+                              <td>CIRC_DESC</td>
+                              <td>VARCHAR2</td>
+                              <td>100</td>
+                              <td>CIRCUIT_DESCRIPTION is the description of the transmission line, in the form of an abbreviated origin to an abbreviated destination, e.g., MON - Monashee -> WGS - Whatshan.</td>
+                           </tr>
+                           <tr>
+                              <td>VOLTAGE</td>
+                              <td>VOLTAGE</td>
+                              <td>NUMBER</td>
+                              <td>38</td>
+                              <td>VOLTAGE is the voltage (electric potential difference) of the transmission line measured in kilovolts (kV), e.g., 130.  Null values indicate that this information is not available.</td>
+                           </tr>
+                           <tr>
+                              <td>OWNER</td>
+                              <td>OWNER</td>
+                              <td>VARCHAR2</td>
+                              <td>30</td>
+                              <td>OWNER is the legal owner and operator of the transmission line, i.e., BC Hydro, FortisBC, Unknown.</td>
+                           </tr>
+                           <tr>
+                              <td>SOURCE_DATE</td>
+                              <td>SOURCE_DT</td>
+                              <td>DATE</td>
+                              <td>7</td>
+                              <td>SOURCE_DATE is the date on which the data was captured, whether through digitization or loading from a digital input data source.</td>
+                           </tr>
+                           <tr>
+                              <td>FEATURE_LENGTH_M</td>
+                              <td>FEAT_LEN</td>
+                              <td>NUMBER</td>
+                              <td>19</td>
+                              <td>FEATURE_LENGTH_M is the system calculated length or perimeter of a geometry in meters.</td>
+                           </tr>
+                           <tr>
+                              <td>SHAPE</td>
+                              <td>SHAPE</td>
+                              <td>SDO_GEOMETRY</td>
+                              <td>1</td>
+                              <td>SHAPE is the column used to reference the spatial coordinates defining the feature.</td>
+                           </tr>
+                           <tr>
+                              <td>OBJECTID</td>
+                              <td>OBJECTID</td>
+                              <td>NUMBER</td>
+                              <td>38</td>
+                              <td>OBJECTID is a column required by spatial layers that interact with ESRI ArcSDE. It is populated with unique values automatically by SDE.</td>
+                           </tr>
+                           <tr>
+                              <td>SE_ANNO_CAD_DATA</td>
+                              <td>None</td>
+                              <td>BLOB</td>
+                              <td>4000</td>
+                              <td>SE_ANNO_CAD_DATA is a binary column used by spatial tools to store annotation, curve features and CAD data when using the SDO_GEOMETRY storage data type.</td>
+                           </tr>
+                        </tbody>
+                     </table>
+               <hr style="border-width:5px ">
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
+

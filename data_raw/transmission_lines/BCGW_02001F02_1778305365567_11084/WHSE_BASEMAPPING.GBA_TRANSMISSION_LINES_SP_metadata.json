@@ -1,0 +1,89 @@
+[
+	{
+		"title" : "BC Transmission Lines",
+		"name" : "bc-transmission-lines",
+		"bcdc_data_resource_url" : "https://catalogue.data.gov.bc.ca/dataset/384d551b-dee1-4df8-8148-b3fcf865096a",
+		"description" : "High voltage electrical transmission lines for distributing power throughout the province. Lines were derived from several data sources representing unique inventories: BC Hydro, Private, Independent Power Producers, and Terrain Resource Information Management (TRIM).\n\nVoltage information is not currently available on the public version of this dataset as per publication agreement with BC Hydro.",
+		"purpose" : "To represent high voltage electrical transmission lines from various sources in one dataset for analytic, cartographic and emergency management purposes.",
+		"bcdc_type" : "Geographic",
+		"last_modified" : "2026-05-06T05:56:01",
+		"resource_storage_location" : "Bc Geographic Warehouse",
+		"object_name" : "WHSE_BASEMAPPING.GBA_TRANSMISSION_LINES_SP",
+		"object_short_name" : "TRNSMT_LNS",
+		"object_table_comments" : "High voltage electrical transmission lines for distributing power throughout the province. Lines were derived from several data sources representing unique inventories: BC Hydro, Private, Independent Power Producers, and Terrain Resource Information Management (TRIM).",
+		"projection_name" : "epsg3005",
+		"license_title" : "Open Government Licence - British Columbia",
+		"license_url" : "https://www2.gov.bc.ca/gov/content?id=A519A56BC2BF44E4A008B33FCF527F61",
+		"details" : [
+			{
+				"column_comments" : "TRANSMISSION_LINE_ID is a system-generated unique identification number.",
+				"column_name" : "TRANSMISSION_LINE_ID",
+				"data_precision" : "10",
+				"data_type" : "NUMBER",
+				"short_name" : "TRNSMSS_ID"
+			},
+			{
+				"column_comments" : "CIRCUIT_NAME is an identifier of the transmission line, as derived from BC Hydro transmission lines, e.g., 1L246.",
+				"column_name" : "CIRCUIT_NAME",
+				"data_precision" : "30",
+				"data_type" : "VARCHAR2",
+				"short_name" : "CIRC_NAME"
+			},
+			{
+				"column_comments" : "CIRCUIT_DESCRIPTION is the description of the transmission line, in the form of an abbreviated origin to an abbreviated destination, e.g., MON - Monashee -> WGS - Whatshan.",
+				"column_name" : "CIRCUIT_DESCRIPTION",
+				"data_precision" : "100",
+				"data_type" : "VARCHAR2",
+				"short_name" : "CIRC_DESC"
+			},
+			{
+				"column_comments" : "VOLTAGE is the voltage (electric potential difference) of the transmission line measured in kilovolts (kV), e.g., 130.  Null values indicate that this information is not available.",
+				"column_name" : "VOLTAGE",
+				"data_precision" : "38",
+				"data_type" : "NUMBER",
+				"short_name" : "VOLTAGE"
+			},
+			{
+				"column_comments" : "OWNER is the legal owner and operator of the transmission line, i.e., BC Hydro, FortisBC, Unknown.",
+				"column_name" : "OWNER",
+				"data_precision" : "30",
+				"data_type" : "VARCHAR2",
+				"short_name" : "OWNER"
+			},
+			{
+				"column_comments" : "SOURCE_DATE is the date on which the data was captured, whether through digitization or loading from a digital input data source.",
+				"column_name" : "SOURCE_DATE",
+				"data_precision" : "7",
+				"data_type" : "DATE",
+				"short_name" : "SOURCE_DT"
+			},
+			{
+				"column_comments" : "FEATURE_LENGTH_M is the system calculated length or perimeter of a geometry in meters.",
+				"column_name" : "FEATURE_LENGTH_M",
+				"data_precision" : "19",
+				"data_type" : "NUMBER",
+				"short_name" : "FEAT_LEN"
+			},
+			{
+				"column_comments" : "SHAPE is the column used to reference the spatial coordinates defining the feature.",
+				"column_name" : "SHAPE",
+				"data_precision" : "1",
+				"data_type" : "SDO_GEOMETRY",
+				"short_name" : "SHAPE"
+			},
+			{
+				"column_comments" : "OBJECTID is a column required by spatial layers that interact with ESRI ArcSDE. It is populated with unique values automatically by SDE.",
+				"column_name" : "OBJECTID",
+				"data_precision" : "38",
+				"data_type" : "NUMBER",
+				"short_name" : "OBJECTID"
+			},
+			{
+				"column_comments" : "SE_ANNO_CAD_DATA is a binary column used by spatial tools to store annotation, curve features and CAD data when using the SDO_GEOMETRY storage data type.",
+				"column_name" : "SE_ANNO_CAD_DATA",
+				"data_precision" : "4000",
+				"data_type" : "BLOB"
+			}
+		]
+	}
+]
