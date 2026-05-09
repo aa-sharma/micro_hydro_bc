@@ -1,0 +1,205 @@
+[
+	{
+		"title" : "Freshwater Atlas Stream Network",
+		"name" : "freshwater-atlas-stream-network",
+		"bcdc_data_resource_url" : "https://catalogue.data.gov.bc.ca/dataset/92344413-8035-4c08-b996-65a9b3f62fca",
+		"description" : "Flow network arcs (observed, inferred and constructed).  Contains no banks, coast or watershed bourdary arcs.  Directionalized and connected.  Contains heirarchial key and route identifier",
+		"purpose" : "This spatially-based information is typically used in allocation decisions, boundary definitions, planning processes and environmental monitoring, by internal and external stakeholders.",
+		"bcdc_type" : "Geographic",
+		"last_modified" : "2025-04-10T22:34:36",
+		"resource_storage_location" : "Bc Geographic Warehouse",
+		"object_name" : "WHSE_BASEMAPPING.FWA_STREAM_NETWORKS_SP",
+		"object_short_name" : "FWSTRMNTWR",
+		"object_table_comments" : "Contains only flow network arcs (observed, inferred and constructed flows).  Contains no banks, coast or watershed boundary arcs. Does not contain multipart geometries. Spatial geometry: simple line",
+		"projection_name" : "epsg3005",
+		"license_title" : "Open Government Licence - British Columbia",
+		"license_url" : "https://www2.gov.bc.ca/gov/content?id=A519A56BC2BF44E4A008B33FCF527F61",
+		"details" : [
+			{
+				"column_comments" : "A unique numeric identifier used to link the arc to the database.",
+				"column_name" : "LINEAR_FEATURE_ID",
+				"data_precision" : "18",
+				"data_type" : "NUMBER",
+				"short_name" : "LNRFTRD"
+			},
+			{
+				"column_comments" : "An automatically generate id that uniquely identifies the watershed group feature.",
+				"column_name" : "WATERSHED_GROUP_ID",
+				"data_precision" : "18",
+				"data_type" : "NUMBER",
+				"short_name" : "WTRSHDGRPD"
+			},
+			{
+				"column_comments" : "A 4 digit numeric code used by the Freshwater Atlas to identify the various types of water network linear features. eg. 1050.",
+				"column_name" : "EDGE_TYPE",
+				"data_precision" : "10",
+				"data_type" : "NUMBER",
+				"short_name" : "EDGE_TYPE"
+			},
+			{
+				"column_comments" : "Uniquely identifies a single flow line such that a main channel and a secondary channel with the same watershed code would have different blue line keys (the Fraser River and all side channels have different blue line keys).",
+				"column_name" : "BLUE_LINE_KEY",
+				"data_precision" : "10",
+				"data_type" : "NUMBER",
+				"short_name" : "BLLNK"
+			},
+			{
+				"column_comments" : "A key that identifies a stream system (for example the Fraser River mainstem and all its side channels the same watershed key).  There is a 1:1 match between a watershed key and watershed code.  The watershed key will match the blue line key for the mainstem.",
+				"column_name" : "WATERSHED_KEY",
+				"data_precision" : "10",
+				"data_type" : "NUMBER",
+				"short_name" : "WTRSHDK"
+			},
+			{
+				"column_comments" : "A 143 character code derived using a hierarchy coding scheme.  Approximately identifies where a particular stream is located within the province.",
+				"column_name" : "FWA_WATERSHED_CODE",
+				"data_precision" : "143",
+				"data_type" : "VARCHAR2",
+				"short_name" : "FWWTRSHDCD"
+			},
+			{
+				"column_comments" : "The 143 character code similar to the fwa watershed code that further subdivides remnant polygons to provide an approximate location along the mainstem.",
+				"column_name" : "LOCAL_WATERSHED_CODE",
+				"data_precision" : "143",
+				"data_type" : "VARCHAR2",
+				"short_name" : "LCLWTRSHDC"
+			},
+			{
+				"column_comments" : "The watershed group code associated with the polygon.",
+				"column_name" : "WATERSHED_GROUP_CODE",
+				"data_precision" : "4",
+				"data_type" : "VARCHAR2",
+				"short_name" : "WTRSHDGRPC"
+			},
+			{
+				"column_comments" : "The distance, in meters, along the route from the mouth of the route to the feature.  This distance is measured from the mouth of the containing route to the downstream end of the feature.",
+				"column_name" : "DOWNSTREAM_ROUTE_MEASURE",
+				"data_precision" : "38",
+				"data_type" : "NUMBER",
+				"short_name" : "DWNSTRMRTM"
+			},
+			{
+				"column_comments" : "The length in meters of the linear object.",
+				"column_name" : "LENGTH_METRE",
+				"data_precision" : "38",
+				"data_type" : "NUMBER",
+				"short_name" : "LNGTHMTR"
+			},
+			{
+				"column_comments" : "The source of the arc; where the feature was obtained or modified. eg. linear stream.",
+				"column_name" : "FEATURE_SOURCE",
+				"data_precision" : "15",
+				"data_type" : "VARCHAR2",
+				"short_name" : "FTRSRC"
+			},
+			{
+				"column_comments" : "The BCGNIS  (BC Geographical Names Information System) feature id.",
+				"column_name" : "GNIS_ID",
+				"data_precision" : "10",
+				"data_type" : "NUMBER",
+				"short_name" : "GNIS_ID"
+			},
+			{
+				"column_comments" : "The BCGNIS  (BC Geographical Names Information System)  name associated with the GNIS feature id (an English name was used where available, otherwise another language was selected).",
+				"column_name" : "GNIS_NAME",
+				"data_precision" : "80",
+				"data_type" : "VARCHAR2",
+				"short_name" : "GNIS_NAME"
+			},
+			{
+				"column_comments" : "Describes which side of the local mainstem this tributary enters on. \"LEFT\" or \"RIGHT\" is assigned to all main-flow streams based on the angle of entry of the stream to its parent stream.  If an observer was standing in the stream facing downstream, the bank on the left of the observer would be the left bank.  Any stream entering the stream on the left is assigned a \"LEFT\" attribute.  Left and right is determined by using the angles of hte upstream and downstream edges of the parent stream at the confluence.Streams that flow into the coastline are attributed as \"NONE\".Streams that flow out of the province and do not connect to any extrajurisdictional streams are attributed as \"UNKNOWN\".",
+				"column_name" : "LEFT_RIGHT_TRIBUTARY",
+				"data_precision" : "7",
+				"data_type" : "VARCHAR2",
+				"short_name" : "LFTRGHTTRB"
+			},
+			{
+				"column_comments" : "The calculated modified Strahler order.",
+				"column_name" : "STREAM_ORDER",
+				"data_precision" : "10",
+				"data_type" : "NUMBER",
+				"short_name" : "STRMRDR"
+			},
+			{
+				"column_comments" : "The calculated magnitude.",
+				"column_name" : "STREAM_MAGNITUDE",
+				"data_precision" : "10",
+				"data_type" : "NUMBER",
+				"short_name" : "STRMMGNTD"
+			},
+			{
+				"column_comments" : "The waterbody key of the waterbody the edge is contained within.",
+				"column_name" : "WATERBODY_KEY",
+				"data_precision" : "10",
+				"data_type" : "NUMBER",
+				"short_name" : "WTRBDK"
+			},
+			{
+				"column_comments" : "The best matched blue line key from the 1:50K Watershed Atlas.",
+				"column_name" : "BLUE_LINE_KEY_50K",
+				"data_precision" : "10",
+				"data_type" : "NUMBER",
+				"short_name" : "BLLNK50K"
+			},
+			{
+				"column_comments" : "The hierarchical identifier from the 1:50K Watershed Atlas associated with the blue line key 50k.",
+				"column_name" : "WATERSHED_CODE_50K",
+				"data_precision" : "45",
+				"data_type" : "VARCHAR2",
+				"short_name" : "WTRSHDCD50"
+			},
+			{
+				"column_comments" : "The 50K watershed key associated with the blue line key 50K from the 1:50K Watershed Atlas.",
+				"column_name" : "WATERSHED_KEY_50K",
+				"data_precision" : "10",
+				"data_type" : "NUMBER",
+				"short_name" : "WTRSHDK50K"
+			},
+			{
+				"column_comments" : "The 50K group code associated with the 50K blue line key from the 1:50K Watershed Atlas.",
+				"column_name" : "WATERSHED_GROUP_CODE_50K",
+				"data_precision" : "4",
+				"data_type" : "VARCHAR2",
+				"short_name" : "WTRSHDGRP1"
+			},
+			{
+				"column_comments" : "The gradient of the stream.",
+				"column_name" : "GRADIENT",
+				"data_precision" : "38",
+				"data_type" : "NUMBER",
+				"short_name" : "GRADIENT"
+			},
+			{
+				"column_comments" : "FEATURE CODE contains a value based on the Canadian Council of Surveys and Mapping's (CCSM) system for classification of geographic features.",
+				"column_name" : "FEATURE_CODE",
+				"data_precision" : "10",
+				"data_type" : "VARCHAR2",
+				"short_name" : "FTRCD"
+			},
+			{
+				"column_name" : "GEOMETRY",
+				"data_precision" : "1",
+				"data_type" : "SDO_GEOMETRY",
+				"short_name" : "GEOMETRY"
+			},
+			{
+				"column_name" : "OBJECTID",
+				"data_precision" : "38",
+				"data_type" : "NUMBER",
+				"short_name" : "OBJECTID"
+			},
+			{
+				"column_name" : "SE_ANNO_CAD_DATA",
+				"data_precision" : "4000",
+				"data_type" : "BLOB"
+			},
+			{
+				"column_comments" : "FEATURE_LENGTH_M is the system calculated length or perimeter of a geometry in meters",
+				"column_name" : "FEATURE_LENGTH_M",
+				"data_precision" : "19",
+				"data_type" : "NUMBER",
+				"short_name" : "FEAT_LEN"
+			}
+		]
+	}
+]
