@@ -13,7 +13,7 @@ Study Area Definition:
 This feasibility analysis will be focused in the specific region of Southwest British Columbia, Canada (Fraser Valley, Squamish-Lillooet, Sunshine Coast region) given the mountainous terrain, many streams, grid access, and manageable data sets.
 
 **DATASET & LAYERS**
-1. Elevation (DEM)
+1. Elevation (DEM) _Source: https://a100.gov.bc.ca/ext/mtec/public/products/mapsheet_
 2. Rivers and Streams
 3. Protected Areas
 4. Roads
