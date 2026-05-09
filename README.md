@@ -76,6 +76,7 @@ Rationale: Minimizes energy loss, and reduces construction costs/time
 
 ### Weighted Sum
 Suitability_i = (40% Elevation Score) + (30% Stream Score) + (15% Road Score) + (15% Transmission Line Score)
+
 Suitability_f = Suitability_i x (Protected Areas Constraint)
 
 
