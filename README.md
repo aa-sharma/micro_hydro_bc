@@ -99,5 +99,8 @@ Future work can include more data sets to address some of these limitations. Lon
 ## QGIS PROJECT DETAILS
 CRS (Coordinate Reference System) used => EPSG:3005 – NAD83 / BC Albers
 
+Screen capture:
+<img src="QGIS_capture.png" width="100%">
+
    
 _Note: GIS raw data not included in repo_
