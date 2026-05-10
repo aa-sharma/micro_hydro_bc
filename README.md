@@ -79,7 +79,6 @@ Rationale: Minimizes energy loss, and reduces construction costs/time
 ### Weighted Sum
 Suitability = ((40% Elevation Score) + (30% Stream Score) + (12% Road Score) + (18% Transmission Line Score)) x (Protected Areas Constraint)
 
-
 ## ASSUMPTIONS
 1. Stream proximity data and use assumes nearby streams have usable flow
 2. Steeper slopes are assumed to improve hydropower potential by increasing hydraulic head
@@ -96,6 +95,9 @@ Suitability = ((40% Elevation Score) + (30% Stream Score) + (12% Road Score) + (
 
 ## FUTURE WORKS
 Future work can include more data sets to address some of these limitations. Long-term data for water flow should be considered to understand seasonal variation.
+
+## QGIS PROJECT DETAILS
+CRS (Coordinate Reference System) used => EPSG:3005 – NAD83 / BC Albers
 
    
 _Note: GIS raw data not included in repo_
