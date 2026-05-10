@@ -1,0 +1,33 @@
+Driver: PDF/Geospatial PDF
+Files: E:/Source/bcalb/250K/tif/092O.pdf
+Size is 5100, 4050
+Coordinate System is:
+PROJCS["NAD_1983_BC_Environment_Albers",
+    GEOGCS["GCS_North_American_1983",
+        DATUM["North_American_Datum_1983",
+            SPHEROID["GRS_1980",6378137.0,298.257222101]],
+        PRIMEM["Greenwich",0.0],
+        UNIT["Degree",0.0174532925199433]],
+    PROJECTION["Albers_Conic_Equal_Area"],
+    PARAMETER["False_Easting",1000000.0],
+    PARAMETER["False_Northing",0.0],
+    PARAMETER["longitude_of_center",-126.0],
+    PARAMETER["Standard_Parallel_1",50.0],
+    PARAMETER["Standard_Parallel_2",58.5],
+    PARAMETER["latitude_of_center",45.0],
+    UNIT["Meter",1.0]]
+Origin = (1100762.585971089500000,811383.060640603070000)
+Pixel Size = (42.332994917196530,-42.332977910523510)
+Metadata:
+  CREATION_DATE=D:20180125115113-08
+  CREATOR=Esri ArcMap 10.3.1.4959
+  NEATLINE=POLYGON ((1100762.47523184 639932.387889831,1100762.76125662 811383.076606766,1316662.93442067 811383.426436098,1316663.34953799 639932.801583815,1100762.47523184 639932.387889831))
+Corner Coordinates:
+Upper Left  ( 1100762.586,  811383.061) (124d31'10.75"W, 52d18'12.13"N)
+Lower Left  ( 1100762.586,  639934.500) (124d34'13.83"W, 50d45'54.03"N)
+Upper Right ( 1316660.860,  811383.061) (121d21'13.68"W, 52d13'10.52"N)
+Lower Right ( 1316660.860,  639934.500) (121d30'46.89"W, 50d41' 2.32"N)
+Center      ( 1208711.723,  725658.780) (122d59'19.35"W, 51d30'14.14"N)
+Band 1 Block=5100x1 Type=Byte, ColorInterp=Red
+Band 2 Block=5100x1 Type=Byte, ColorInterp=Green
+Band 3 Block=5100x1 Type=Byte, ColorInterp=Blue
