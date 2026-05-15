@@ -99,9 +99,10 @@ Future work can include more data sets to address some of these limitations. Lon
 ## QGIS PROJECT DETAILS
 CRS (Coordinate Reference System) used => EPSG:3005 – NAD83 / BC Albers
 
-Final Site Suitability Heatmap:
-<img src="QGIS_capture.png" width="100%">
+## Output
+<img src="outputs/micro_hydro_bc_sites.png" width="100%">
 
-Red -> Yello -> Green gradient represents areas from least suitable to most.
+Red -> Yellow -> Green gradient represents areas from least suitable to most.
+Due to British Columbia's rich geography in relation to flowing streams, and elevations, several candidate sites can be picked from this map, many exceeding over 1MW in hydroelectric capacity. For the next part of the project, a capacity of 100kW is assumed.
 
 _Note: GIS raw data not included in repo_
