@@ -70,10 +70,10 @@ Rationale: Minimizes energy loss, and reduces construction costs/time
 | Distance | Score |
 | -------- | ----- |
 |   <1km   |   5   |
-|   1-3km  |   4   |
-|   3-4km  |   3   |
-|   4-5km  |   2   |
-|   >5km   |   1   |
+|  1-10km  |   4   |
+|  10-30km |   3   |
+|  30-50km |   2   |
+|  >50km   |   1   |
 
 
 ### Weighted Sum
@@ -99,8 +99,9 @@ Future work can include more data sets to address some of these limitations. Lon
 ## QGIS PROJECT DETAILS
 CRS (Coordinate Reference System) used => EPSG:3005 – NAD83 / BC Albers
 
-Screen capture:
+Final Site Suitability Heatmap:
 <img src="QGIS_capture.png" width="100%">
 
-   
+Red -> Yello -> Green gradient represents areas from least suitable to most.
+
 _Note: GIS raw data not included in repo_
