@@ -2,7 +2,10 @@
 
 > The purpose of this project is to conduct a feasibility study to identify candidate locations for micro-hydropower development in Southwest BC considering terrain, river proximity, infrastructure access, and environmental constraints.
 
-<img src="Scope.png" width="50%">
+<img src="Scope.png" width="80%">
+
+Typical run-of-river Hydro Power Layout
+<img src="run-of-river-scheme.png" width="40%">
 
 
 ## OVERVIEW
