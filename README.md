@@ -5,7 +5,8 @@
 <img src="Scope.png" width="80%">
 
 Typical run-of-river Hydro Power Layout
-<img src="run-of-river-scheme.png" width="40%">
+
+<img src="run-of-river-scheme.png" width="25%">
 
 
 ## OVERVIEW
