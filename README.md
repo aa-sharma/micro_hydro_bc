@@ -7,7 +7,7 @@
 
 ## OVERVIEW
 
-Deliverables: suitability map, ranked candidate sites layer, short report
+Deliverables: suitability map, ranked candidate sites layer
 
 Software: QGIS, Python, Git
 
