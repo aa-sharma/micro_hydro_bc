@@ -6,7 +6,7 @@
 
 Typical run-of-river Hydro Layout
 
-<img src="run-of-river-scheme.png" width="25%">
+<img src="run-of-river-scheme.jpeg" width="50%">
 
 
 ## OVERVIEW
