@@ -107,7 +107,7 @@ CRS (Coordinate Reference System) used => EPSG:3005 – NAD83 / BC Albers
 <img src="outputs/micro_hydro_bc_sites.png" width="100%">
 
 Red -> Yellow -> Green gradient represents areas from least suitable to most.
-Due to British Columbia's rich geography in relation to flowing streams, and elevations, several candidate sites (ex. in and around the Canoe Creek, Carpenter Lake, and Meldrum Creek areas) can be picked from this map, many exceeding over 1MW in hydroelectric capacity. Below are coordinates for three candidates sites (coordinates in EPSG:3005 - NAD83 / BC Albers):
+Due to British Columbia's rich geography in relation to flowing streams, and elevations, several candidate sites can be picked from this map, many exceeding over 1MW in hydroelectric capacity. Below are coordinates for three candidates sites (coordinates in EPSG:3005 - NAD83 / BC Albers):
 
 * Meldrum Creek (1253895,795010)
 * Canoe Creek (1258909,729333)
