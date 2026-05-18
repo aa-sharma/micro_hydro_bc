@@ -114,6 +114,6 @@ Due to British Columbia's rich geography in relation to flowing streams, and ele
 * Carpenter Lake (1228353,660115)
 
 
-For the next part of the project, a capacity of 100kW is assumed.
+For the [next part of the project](https://github.com/aa-sharma/micro_hydro_bc_II), a capacity of 100kW is assumed.
 
 _Note: GIS raw data not included in repo_
